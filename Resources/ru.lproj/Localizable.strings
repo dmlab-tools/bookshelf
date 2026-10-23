@@ -1,0 +1,84 @@
+/* Window and empty states */
+"Bookshelf" = "Книжная полка";
+"No Library Selected" = "Библиотека не выбрана";
+"Choose the folder that contains the .inpx file and the zip archives with books." = "Выберите папку, где лежат файл .inpx и zip-архивы с книгами.";
+"Choose Folder…" = "Выбрать папку…";
+"Can’t Open Library" = "Не удалось открыть библиотеку";
+"Try Again" = "Повторить";
+"Choose Another Folder…" = "Выбрать другую папку…";
+"Search Books" = "Поиск книг";
+"Books in the library: %@. Start typing an author’s name, a title or a series. Words can go in any order." = "Книг в библиотеке: %@. Начните вводить фамилию автора, название или серию. Слова можно вводить в любом порядке.";
+"No Results" = "Ничего не найдено";
+"Try changing the search or the filters." = "Попробуйте изменить запрос или фильтры.";
+"Select a book to see its description." = "Выберите книгу, чтобы увидеть описание.";
+"Books selected: %lld" = "Выбрано книг: %lld";
+
+/* Menus */
+"Open Library…" = "Открыть библиотеку…";
+"Reload Catalog" = "Перечитать каталог";
+
+/* Search and toolbar */
+"Author, title or series" = "Автор, название или серия";
+"All" = "Везде";
+"Language" = "Язык";
+"All Languages" = "Все языки";
+"Not Specified" = "Не указан";
+"Show only books in this language" = "Показывать книги только на этом языке";
+"Export to fb2" = "Экспорт в fb2";
+"Save the selected books to a folder" = "Сохранить выделенные книги в папку";
+
+/* Table */
+"Author" = "Автор";
+"Title" = "Название";
+"Series" = "Серия";
+"Genre" = "Жанр";
+"Size" = "Размер";
+"Added" = "Добавлена";
+"Open" = "Открыть";
+"Export to fb2…" = "Экспорт в fb2…";
+"All Books by This Author" = "Все книги автора";
+"Entire Series “%@”" = "Вся серия «%@»";
+
+/* Status bar */
+"Books in library: %@" = "Книг в библиотеке: %@";
+"Found: %@" = "Найдено: %@";
+"Showing the first %@ — refine your search" = "Показаны первые %@ — уточните запрос";
+"Selected: %lld" = "Выбрано: %lld";
+
+/* Book details */
+"Unknown Author" = "Автор не указан";
+"Show all books by this author" = "Показать все книги автора";
+"Show the entire series" = "Показать всю серию";
+"Export" = "Экспорт";
+"Year" = "Год";
+"Publisher" = "Издатель";
+"Rating" = "Оценка";
+"File" = "Файл";
+"Can’t read the book: %@" = "Не удалось прочитать книгу: %@";
+
+/* Opening a library */
+"Choose the library folder (it must contain the .inpx file and the zip archives)" = "Выберите папку с библиотекой (в ней должны лежать .inpx и zip-архивы)";
+"The folder isn’t available: %@\nThe disk may not be connected." = "Папка недоступна: %@\nВозможно, диск не подключён.";
+"Reading the catalog…" = "Читаю каталог…";
+"Reading %lld archives…" = "Читаю архивы: %lld…";
+"The folder has no .inpx file (the library catalog)." = "В папке нет файла .inpx (каталога библиотеки).";
+"There are no book archives next to %@." = "Рядом с %@ нет ни одного архива с книгами.";
+"Archive %@ not found" = "Архив %@ не найден";
+
+/* Export */
+"Save Here" = "Сохранить сюда";
+"Where to save “%@”?" = "Куда сохранить «%@»?";
+"Where to save %lld books?" = "Куда сохранить выбранные книги (%lld)?";
+"File name:" = "Имя файла:";
+"Author - Title" = "Автор - Название";
+"Author - Series 01 - Title" = "Автор - Серия 01 - Название";
+" et al." = " и др.";
+"Open %lld books?" = "Открыть выбранные книги (%lld)?";
+"Cancel" = "Отмена";
+"No App Can Open fb2 Files" = "Нет программы для чтения fb2";
+"Install a reader that opens fb2 files, or use Export. The file was saved to a temporary folder." = "Установите читалку, которая открывает fb2-файлы, или воспользуйтесь экспортом. Файл сохранён во временную папку.";
+"Show in Finder" = "Показать в Finder";
+"OK" = "OK";
+"Saving %lld of %lld…" = "Сохраняю %lld из %lld…";
+"Books saved: %lld" = "Сохранено книг: %lld";
+"Couldn’t save %lld of %lld" = "Не удалось сохранить %lld из %lld";
