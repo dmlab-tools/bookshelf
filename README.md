@@ -1,8 +1,7 @@
 # Bookshelf
 
 A native macOS app for browsing a local library of FB2 books stored in the INPX format: a folder with an
-`.inpx` catalog and zip archives of books (the layout used by MyHomeLib and the big Russian-language online
-libraries' offline dumps).
+`.inpx` catalog and zip archives of books (the format used by MyHomeLib and similar catalogs).
 
 - Instant search by author, title and series across hundreds of thousands of books, straight from the catalog.
 - The selected book's annotation, cover, genres, series, year and publisher.
@@ -13,7 +12,7 @@ The app only reads the library: it never changes the catalog or the archives. It
 
 ## Requirements
 
-macOS 13 or later. Building needs Xcode or just the Command Line Tools (`xcode-select --install`).
+macOS 13 or later, Apple Silicon or Intel. Building needs Xcode or just the Command Line Tools (`xcode-select --install`).
 
 ## Building
 

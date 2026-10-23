@@ -2,11 +2,12 @@
 # Builds dist/Bookshelf.app.
 set -e
 cd "$(dirname "$0")"
-swift build -c release
+# Universal binary: Apple Silicon and Intel.
+swift build -c release --arch arm64 --arch x86_64
 APP="dist/Bookshelf.app"
 rm -rf "$APP"
 mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
-cp .build/release/Bookshelf "$APP/Contents/MacOS/Bookshelf"
+cp .build/apple/Products/Release/Bookshelf "$APP/Contents/MacOS/Bookshelf"
 [ -f Resources/AppIcon.icns ] && cp Resources/AppIcon.icns "$APP/Contents/Resources/"
 # UI languages: English (the strings in the code) and Russian. macOS picks one.
 cp -R Resources/*.lproj "$APP/Contents/Resources/"
